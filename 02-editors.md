@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Vim.  I used nano in the past but I'd like to become more comfortable in vim because it is more powerful and universal.  emacs is more extensive in use than just an editor and I feel no desire to use it as anything beyond a text editor.
 
 --
 
@@ -89,6 +89,4 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
+>> I plan to use Visual Studio Code. I've been using this recently on windows and I've enjoyed the minimalist approach to its features compared to IDEs I used in the past. Given that VSCode is cross-platform similarly minimal editors seem to skimp out on debugging options so I see no reason to try another at the moment. As it's a more minimal editor I haven't run into too many surprises but I really appreciate the integrated terminal and full debugging suite. The most useful shortcuts I've found so far are ctrl+]/ctrl+[ to indent/outdent lines and ctrl+shift+]/ctrol+shift+[ to collapse/unfold code regions. There is an extension manager inside of VSCode which accesses a marketplace of various extensions. Various editor settings are also available to tweak from the settings.json file.
