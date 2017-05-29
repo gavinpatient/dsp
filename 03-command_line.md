@@ -19,7 +19,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+
+1. `pwd` shows the current working directory path.  
+2. `mkdir dirname` creates a new directory of title 'dirname'.  
+3. `rmdir dirname` deletes the directory of title 'dirname.  
+4. `touch filename` creates a files with name 'filename'
+5. `rm filename` deletes the file with name 'filename'
+6. `mv file1 file2` would rename file1 to file2
+7. `ls -a` would show hidden files
+8. `mv dir1/file1 dir2/file1` would move file 1 from dir1 to dir2
+9. `touch filename` creates a blank file with name 'filename'
+10. `man man` opens the manual for help on using the man command
 
 ---
 
@@ -34,7 +44,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls` lists the director contents.  
+`-a` flag forces all files to be displayed (files starting with . are ignored by default).  
+`-l` flag gives you a long format list, showing additional information like file size and when it was last modified.  
+`-h` flag prints sizes in a human readable format.  
+`-t` sorts the files shown in order of modification time.  
+`-G` prevents group information from being displayed.  
+`-p` appends file type indicator to the entries.  
+The commands above are just combinations of these flags.
 
 ---
 
@@ -42,7 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `-R` because showing subdirectories seems useful.  
+`-1` because separating each file on its own line without the mess of information from `-l` is useful.  
+`-d` because showing only directories is useful.  
+`-m` because this seems useful for extracing information.  
+`-i` because it looks funny
 
 ---
 
@@ -50,7 +71,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `xargs` can take a stream of inputs and apply a command to all of them in turn.  This is useful for iterating over multiple files from the command line and can be used in combination with commands like find to filter through different file types or directories. for example the command `find . -name "*.jpg" | xargs tar -czvf jpegs.tgz` to find all the .jpg files in a directory and then zip them into a single file jpegs.tgz
 
  
 
